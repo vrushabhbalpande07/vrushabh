@@ -1,0 +1,73 @@
+# # for i in "vrushabh":
+# #     print(i)
+# for i in range(10):
+#     print(i)
+# sum=0
+# n=int(input())
+# for i in range(n+1):
+#     sum+=i
+# # print(sum)
+# sum=0
+# n=int(input())
+# i=0
+# while(i<=n):
+#     sum+=i
+#     i+=1
+# print(sum)
+# sum=0
+# for i in range(1,6):
+#     cube=i**3
+#     sum+=cube
+# print(sum)
+# sum=0
+# i=0
+# while(i<=5):
+#     sum+=i*i
+#     i+=1
+# print(sum)
+# sum=0
+# i=0
+# n=int(input())
+# while(i<=n):
+#     sum+=i*i
+#     i+=1
+# print(sum)
+# for i in range(1,10):
+#     if(i==5):
+#         break
+#     print(i)
+# i=0
+# while(i<=10):
+#     if(i==6):
+#         break
+#     i+=1
+#     print(i)
+# print(i)
+# for i in range(1,10):
+#     if i==5 or i==7:
+#         continue
+#     print(i)
+# i=0
+# while(i<=10):
+#     i+=1
+#     if i==5:
+#         continue
+#     print(i)
+# for i in range(1,5):
+#     for j in range(1,5):
+#      print(i+j,end=" ")
+#     print("\n")
+# for i in range(5,6):
+#     for j in range(1,5):
+#         print(i*j)
+
+# n=int(input())
+# sum=0
+# for i in range (n+1):
+#     sum+=i
+#     print(sum,end=" ")
+sum=0
+n=int(input())
+for i in range(n+1):
+    sum+=i
+    print(sum/n)

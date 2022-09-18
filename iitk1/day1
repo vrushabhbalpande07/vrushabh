@@ -1,0 +1,39 @@
+# greetings= "hi!"
+# name="akanshu"
+# end="i am glad to meet you"
+# print(greetings,end="")
+# print(name,end="\n")
+# print('enter a number :-',end="")
+# num=input()
+# print(num)
+# num=int(input("enter your number:-"))
+# print(num)
+a=5
+b=6
+print(a==b)
+ # can we buy choclates ?
+# money=100
+# item=60
+# choclate= 20
+# if(money-item>choclate):
+#     print("you can buy choclates")
+# if(money-item>5*choclate):
+#     print("even you can buy 0.5 choclates")
+# elif("money-item>5"):
+#     print("you are low on money")
+# else:
+#     print("you can not buy choclates")
+# num=int(input())
+# if(num%2==0):
+#     print("number is odd")
+# else:
+#     print("even")
+
+money=66
+item=60
+choclate=20
+if(money-item>0):
+    if(money-item>choclate):
+        print("yes we can buy choclate")
+    else:
+        print("no you cant buy choclate")
